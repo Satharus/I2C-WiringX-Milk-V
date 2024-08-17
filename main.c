@@ -15,7 +15,7 @@ int main()
         return -1;
     }
 
-    // Get fd for OLED sensor
+    // Get fd for OLED
     i2cOLEDfd = wiringXI2CSetup(I2C_DEV, SSD1306_ADDR);
 
     if (i2cOLEDfd < 0)
